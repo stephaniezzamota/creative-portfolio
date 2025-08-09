@@ -56,7 +56,7 @@ function init() {
         nextPage,
         0.3,
         { opacity: 0, pointerEvents: "none" },
-        { opacity: 1, pointerEvents: "all" },
+        { opacity: 1, pointerEve----------------------------------------nts: "all" },
         "-=0.6"
       )
       .fromTo(nextLeft, 0.3, { y: "-100%" }, { y: "-10%" }, "-=0.6")
