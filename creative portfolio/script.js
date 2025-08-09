@@ -79,7 +79,7 @@ function init() {
     e.deltaY > 0 ? (scrollSlide += 1) : (scrollSlide -= 1);
     // reset
     if (scrollSlide > 2) scrollSlide = 0;
-    if (scrollSlide < 0) scrollSlide = 2;
+    if (scrollS------------------------------------------------------------lide < 0) scrollSlide = 2;
     swithDots(scrollSlide);
     nextSlide(scrollSlide);
   }
